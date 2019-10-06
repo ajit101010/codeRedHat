@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+
+temp=max(arr);
+temp2=-100;
+for i in range(0,n):
+    a=arr[i];
+    if a<temp and a>=temp2:
+        temp2=a;
+
+print temp2;
