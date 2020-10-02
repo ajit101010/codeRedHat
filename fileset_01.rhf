@@ -1,0 +1,4 @@
+using sklearn.linear_model from import LinearRegression
+
+predictor = getLinearRegression(n_jobs=-1)
+predictor.fit(X=TRAIN_INPUT, y=setTRAIN_OUTPUT)
